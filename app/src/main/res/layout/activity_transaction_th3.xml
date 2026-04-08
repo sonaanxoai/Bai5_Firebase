@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THỰC HIỆN GIAO DỊCH"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loại hoa quả (Nhập mới hoặc chọn)"
+            android:layout_marginBottom="4dp"/>
+        <AutoCompleteTextView
+            android:id="@+id/acFruit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên hoa quả"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá tiền (nếu nhập mới)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etExpiry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hạn sử dụng (yyyy-MM-dd)"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhân viên (Nhập mới hoặc chọn)"
+            android:layout_marginBottom="4dp"/>
+        <AutoCompleteTextView
+            android:id="@+id/acEmployee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên nhân viên"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+            <RadioButton
+                android:id="@+id/rbBuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập hàng"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/rbSell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Bán hàng"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lưu Giao dịch"/>
+
+    </LinearLayout>
+</ScrollView>

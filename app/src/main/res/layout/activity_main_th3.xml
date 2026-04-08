@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ BÁN HOA QUẢ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnViewInventory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📦 Quản lý Kho &amp; Hết hạn"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnNewTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="💰 Nhập hàng / Bán hàng"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="📜 Lịch sử Giao dịch"
+        android:layout_marginBottom="12dp"/>
+
+</LinearLayout>

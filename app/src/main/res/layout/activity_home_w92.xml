@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shopping App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvUserStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Guest"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách Products"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnViewCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Categories"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnViewDetailPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem chi tiết Product"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

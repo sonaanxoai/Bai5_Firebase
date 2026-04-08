@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "498616679134",
+    "project_id": "nhom4-w11",
+    "storage_bucket": "nhom4-w11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498616679134:android:709bc1fc8a1258fb4fe04f",
+        "android_client_info": {
+          "package_name": "com.example.nhom4_w11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRLoKyzC_Tgcj3hwACEzsSRVYH3sqjAWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
